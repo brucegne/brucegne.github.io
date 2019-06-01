@@ -1,8 +1,244 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Montz Motorcycle Museum</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-  <a href="/about.html">About</a>
-</body>
+    <div id="id01" class="w3-modal">
+      <div class="w3-modal-content w3-card-8 w3-animate-zoom" style="max-width:600px">
+
+        <div class="w3-center"><br>
+          <span onclick="document.getElementById('id01').style.display='none'" class="w3-closebtn w3-hover-red w3-container w3-padding-8 w3-display-topright" title="Close Modal">&times;</span>
+        </div>
+        <form class="w3-container" action="#" id="mailform" name="mailform">
+          <div class="w3-section">
+            <label><b>Name</b></label>
+            <input class="w3-input w3-border w3-margin-bottom" id="usrname" type="text" placeholder="Enter Username" name="usrname" required>
+            <label><b>EMail</b></label>
+            <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter EMail address" name="passwd" required>
+            <label><b>Password</b></label>
+            <input class="w3-input w3-border" type="password" placeholder="Enter Password" name="psw" required>
+            <button class="w3-btn-block w3-green w3-section w3-padding" type="submit">Signup</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Montz Motorcycle Museum</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#" onclick="document.getElementById('id01').style.display='block'">Mailing List</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Mailing List</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Montz Motorcycle Museum</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Great collection of bikes from the last century</h5>
+        </div>
+        <div class="row center">
+          <a href="./bikes.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Our Collection</a>
+          <a href="https://www.youtube.com/watch?v=63veLCqVTfc&feature=youtu.be" target="_blank" id="download-button" style="margin-left: 50px;" class="btn-large waves-effect waves-light teal lighten-1">Video Promo</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h5 class="center">Montz Motorcycle Museum</h5>
+            <p><img src="https://s3.amazonaws.com/appsmade4u.photos/sshow/building.jpg" width="300" /></p>
+            <div class="desc" style="text-align: center;">432 Clay Street</div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h5 class="center">Montz Motorcycle Museum</h5>
+            <p><img src="https://s3.amazonaws.com/appsmade4u.photos/sshow/sign.jpg" width="300" /></p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h5 class="center"><br />Our Founders</h5>
+            <a target="_blank" href="./sshow/candb.jpg">
+              <img src="https://s3.amazonaws.com/appsmade4u.photos/sshow/candb.jpg" alt="Forest" width="300" height="200">
+            </a>
+            <div class="desc" style="text-align: center;">Carla and Bill Montz</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="american1072.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Over Seventy Motorcycles on display</h4>
+          <p class="left-align light">
+
+<b>By Ann Wickett (Tecumseh Chieftain)</b><br />
+
+Montz Motorcycle Museum is the only motorcycle museum in Nebraska and
+will officially be open on Friday, August 4 from 10 a.m. to 4 p.m. This
+new motorcycle museum owned by Bill and Carla Montz of Tecumseh will be
+open on Fridays and Saturdays from 10 a.m. to 4 p.m. or by appointment.
+The museum will also be open during special events happening in Tecumseh
+such as the upcoming Total Solar Eclipse on Monday, August 21.
+<br />
+Bill and Carla Montz began working on this museum 1 ½ years ago.
+The dimensions of the Montz Motorcycle Museum is 96’ x 40’. The exterior
+consists of a metal shed. The interior features a variety of mirrors,
+signage describing the type and year of the motorcycle and brief history.
+The Montzs constructed a wooden platform to make it more convenient to
+display more of their motorcycles. They borrowed an automatic lift from
+Jesse Grof to lift the motorcycles up to this platform. A flooring company
+from Nebraska City came in and installed the vinyl flooring in the areas
+used for displaying the motorcycles. The remainder of tiles for the
+walkway, wall hangings, mirrors, and mannequins were assembled by
+Bill and Carla. “We did everything together,” she said.</p>
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="s-l1000.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+<!--          
+        <div class="col l6 s12">
+          <h5 class="white-text">WINTER HOURS: by appointment only.</h5>
+          <p class="grey-text text-lighten-4"><br />
+            CLOSED- 1st weekend in November<br />
+            OPEN-  1st weekend in March<br />
+            or call (402) 335-0328</p>
+        </div>
+-->
+        <div class="col l6 s12">
+          <h5 class="white-text">Hours of Operation</h5>
+          <p class="grey-text text-lighten-4">We are open.<br />
+            Friday and Saturday<br />
+            From 10:00 am - 4:00 pm<br />
+            or call (402) 335-0328</p>
+        </div>
+
+        <div class="col l3 s12">
+          <h5 class="white-text">Local Links</h5>
+          <ul>
+            <li><a class="white-text" target="_blank" href="http://www.tecumsehne.com/">City of Tecumseh</a></li>
+            <li><a class="white-text" target="_blank" href="https://www.tecumsehchieftain.com/">Tecumseh Chieftain</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+            <h5 class="white-text">Admission</h5>
+            <ul>
+              <li><a class="white-text" href="#!"><span style="width: 140px;">Adults:</span><span style="padding-left: 42px; width: 60; text-align: right;">$10.00</span></a></li>
+              <li><a class="white-text" href="#!"><span style="width: 120px;">Under 10:</span><span style="padding-left: 30px; width: 60; text-align: right;">$3.00</span></a></li>
+              <li><a class="white-text" href="#!">When with an adult.</a></li>
+            </ul>
+          </div>
+            </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://appsmade4u.com" target="_blank">AppsMade4U</a>
+      </div>
+    </div>
+  </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+<script src="https://cdn.firebase.com/libs/angularfire/2.0.2/angularfire.min.js"></script>  </head>
+<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDiMGmIaC4FgEomvJlk8oCQEJLnUI4qXJU",
+    authDomain: "mmmuseum-e07ee.firebaseapp.com",
+    databaseURL: "https://mmmuseum-e07ee.firebaseio.com",
+    storageBucket: "mmmuseum-e07ee.appspot.com",
+  };
+  firebase.initializeApp(config);
+
+  document.getElementById("mailform").addEventListener("submit", function(){
+      document.getElementById("usrname").value = "Hello World";
+  });
+
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84263321-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
